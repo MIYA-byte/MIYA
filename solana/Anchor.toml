@@ -1,0 +1,31 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+miya_mixer = "Mixer111111111111111111111111111111111111111"
+miya_zkengine = "ZkEngine11111111111111111111111111111111111"
+miya_bridge = "Bridge1111111111111111111111111111111111111"
+miya_governance = "Governance111111111111111111111111111111111"
+
+[programs.devnet]
+miya_mixer = "Mixer111111111111111111111111111111111111111"
+miya_zkengine = "ZkEngine11111111111111111111111111111111111"
+miya_bridge = "Bridge1111111111111111111111111111111111111"
+miya_governance = "Governance111111111111111111111111111111111"
+
+[programs.mainnet]
+miya_mixer = "Mixer111111111111111111111111111111111111111"
+miya_zkengine = "ZkEngine11111111111111111111111111111111111"
+miya_bridge = "Bridge1111111111111111111111111111111111111"
+miya_governance = "Governance111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts" 
