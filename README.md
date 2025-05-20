@@ -389,7 +389,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Website](https://www.miya.baby/)
 - [Twitter](https://x.com/MI_YA_190)
 - [GitHub](https://github.com/MIYA-byte/MIYA)
-- [Documentation](https://docs.miya.baby/)
 
 ## 📞 Contact
 
